@@ -8,7 +8,7 @@ var DefaultLayout = React.createClass({
         let distUrl;
         distUrl = process.env.NODE_ENV == 'production' ? '' : 'http://localhost:8081/';
 
-        headHtml = `<title>Gearz</title>
+        headHtml = `<title>ProjectX</title>
             <meta http-equiv='X-UA-Compatible' content='IE=edge' />
             <meta name='viewport' content='width=device-width, initial-scale=1.0' />
             <link rel="shortcut icon" href="${distUrl}assets/favicon.ico" type="image/x-icon">
